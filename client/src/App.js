@@ -30,6 +30,7 @@ export default function App() {
     event.preventDefault()
     save()
     setLoading(true)
+      setFormData('')
   }
 
   const handleChange = (event) => {
@@ -43,10 +44,11 @@ export default function App() {
         <form className="form-group mt-5" onSubmit={handleSubmit}>
             <div className="input-group">
                <textarea
-                 className="form-control"
-                 aria-label="With textarea"
-                 name="name" value={formData}
-                 onChange={handleChange}
+                   required={true}
+                   className="form-control"
+                   aria-label="With textarea"
+                   name="name" value={formData}
+                   onChange={handleChange}
                />
             </div>
             <div className="d-flex align-items-center justify-content-center text-center py-5">
