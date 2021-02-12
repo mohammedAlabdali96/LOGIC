@@ -1,7 +1,9 @@
 #Run the app
 -clone the repo from https://github.com/mohammedAlabdali96/logic
 
--open the terminal in project directory
+-open the terminal where you clone the repo
+
+`cd logic`
 
 #run the server 
 
