@@ -30,7 +30,7 @@ _open another terminal in the main directory for the project_
 
 start your React App by running:
 
-client should run on prt 3000 
+client should run on port 3000 
 
 `yarn start`
 
