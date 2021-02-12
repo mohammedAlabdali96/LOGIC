@@ -81,7 +81,6 @@ const sortRoutes = (app, fs) => {
     app.post('/api/sort', (req, res) => {
         readFile(data => {
             data = quickSort(req.body,0, req.body.length - 1);
-            console.log(data)
 
             writeFile(JSON.stringify(data, null, 2), () => {
                 console.log("it's okay")

@@ -26,8 +26,6 @@ export default function App() {
         .catch((err) => console.log(err))
   }
 
-  console.log(formData)
-
   const handleSubmit = (event) => {
     event.preventDefault()
     save()
@@ -40,10 +38,20 @@ export default function App() {
 
 
   return (
-      <div className="App">
-        <form onSubmit={handleSubmit}>
-          <textarea name="name" value={formData} onChange={handleChange} />
-          <button disabled={loading} type="submit">click</button>
+      <div className="container-sm">
+          <h1 className="text-center">Home Page</h1>
+        <form className="form-group mt-5" onSubmit={handleSubmit}>
+            <div className="input-group">
+               <textarea
+                 className="form-control"
+                 aria-label="With textarea"
+                 name="name" value={formData}
+                 onChange={handleChange}
+               />
+            </div>
+            <div className="d-flex align-items-center justify-content-center text-center py-5">
+               <button disabled={loading} className="btn btn-primary" type="submit">click</button>
+            </div>
         </form>
           {loading &&  <div> Loading ...</div>}
         {data &&
