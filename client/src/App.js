@@ -12,7 +12,7 @@ export default function App() {
       headers: {
         "Content-Type": "application/json",
       },
-      body: JSON.stringify(formData.replace(/\n/g, " ").split(" ")),
+      body: JSON.stringify(formData.split(/\n/g)),
     })
       .then((response) => response.json()) // parses response to JSON
       .then((result) => {
