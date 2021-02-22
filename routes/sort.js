@@ -73,6 +73,9 @@ const sortRoutes = (app, fs) => {
     };
 
     app.get('/api/sort', (req, res) => {
+        console.log(req)
+        // res.setHeader('Content-Type', 'application/json')/;
+
         readFile(data => {
             res.send(data);
         }, true);

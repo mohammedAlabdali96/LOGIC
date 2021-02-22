@@ -11,7 +11,7 @@ export default function App() {
 
   const save = () => {
       setLoading(true)
-    fetch('http://localhost:3001/api/sort', {
+    fetch('/api/sort', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

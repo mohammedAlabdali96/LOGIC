@@ -9,15 +9,6 @@ const app = express();
 // (we'll be using this to serve our JSON files
 const fs = require('fs');
 
-app.use(function (req, res, next) {
-
-    res.setHeader('Access-Control-Allow-Origin', 'http://localhost:3000');
-    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
-
-    // Pass to next layer of middleware
-    next();
-});
-
 
 // configure our express instance with some body-parser settings
 // including handling JSON data
