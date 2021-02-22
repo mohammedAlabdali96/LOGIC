@@ -4,6 +4,8 @@ node_modules/
 client/.pnp
 client/.pnp.js
 .idea/
+.idea/workspace.xml
+
 
 # testing
 client/coverage

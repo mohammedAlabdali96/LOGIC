@@ -19,7 +19,7 @@ export default function App() {
         setData(result);
         setLoading(false);
       })
-      .catch((err) => console.log(err));
+      .catch((err) => setLoading(true));
   };
 
   const handleSubmit = (event) => {
