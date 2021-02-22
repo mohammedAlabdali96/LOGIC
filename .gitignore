@@ -3,8 +3,6 @@ node_modules/
 # dependencies
 client/.pnp
 client/.pnp.js
-.idea/
-.idea/workspace.xml
 
 
 # testing
