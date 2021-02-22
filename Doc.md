@@ -5,6 +5,11 @@
 
 `cd logic`
 
+#you can start the server and the client by using 
+npm run dev
+
+
+if it doesn't work try :
 #run the server 
 
 `cd server`
