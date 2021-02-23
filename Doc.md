@@ -12,8 +12,6 @@ npm run dev
 if it doesn't work try :
 #run the server 
 
-`cd server`
-
 **install the node packages manger**
 
 `npm i`
