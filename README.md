@@ -16,13 +16,6 @@ This is full functionality of the web application we expect you to create.
 * The sorting algorithm should be [Quicksort](https://en.wikipedia.org/wiki/Quicksort) (do not use any libraries or built-in functions for sorting)
 * The API endpoint should validate that the correct data (array of strings) has been submitted, otherwise it should return a 400 status code
 
-### Documentation
-
-There should be brief (just a few words on each case), yet clear documentation of:
-
-* How to run your application
-* How each function you wrote works
-
 ### Example
 
 If the user enters the text below:
