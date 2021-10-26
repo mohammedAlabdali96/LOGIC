@@ -1,7 +1,3 @@
-# Junior Web Developer Exercise
-
-This is the exercise for the Junior Web Developer position at LOGIC. The objective of this exercise is to create a web application.
-
 ## Spec
 
 This is full functionality of the web application we expect you to create.
